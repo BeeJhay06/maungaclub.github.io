@@ -1,0 +1,152 @@
+body, h1, h2 h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  background: black;
+}
+
+body {
+  background-image: url('C:\\Users\\ahljo\\Desktop\\Beejhay school\\csc2 Assessment\\images\\mountain_view_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.chalet-details {
+    text-align: center;
+    padding: 2rem;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; 
+}
+
+.image {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .chalets, .membership {
+    padding: 4rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    margin-top: auto; /* Push footer to the bottom */
+} 
+  
+.Club-Logo {
+  width: 300px;
+}
+
+
+
+.chalets {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.chalet-choices {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.chalet-choice {
+  flex-basis: calc(33.33% - 2rem);
+  margin: 1rem;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.chalet-choice img {
+  max-width: 100%;
+}
+
+.chalet-button {
+  margin-top: 1rem;
+}
+
+
+.membership {
+  display: none;
+}
+.additional-info {
+  padding: 2rem;
+  text-align: center;
+  font-weight: 600;
+  background: black;
+}
+
+.additional-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.additional-info p {
+  margin-bottom: 1rem;
+}
